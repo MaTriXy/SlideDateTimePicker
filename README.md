@@ -21,7 +21,7 @@ dependencies {
 
 How to Use
 ==========
-(See [SampleActivity](https://github.com/jjobes/SlideDateTimePicker/blob/master/SlideDateTimePickerSample/src/com/github/jjobes/slidedatetimepicker/sample/SampleActivity.java) for a more complete example)
+(See [SampleActivity](https://github.com/jjobes/SlideDateTimePicker/blob/master/slideDateTimePickerSample/src/main/java/com/github/jjobes/slidedatetimepicker/sample/SampleActivity.java) for a more complete example)
 
 First create a listener object:
 
@@ -106,6 +106,14 @@ Contributions are welcome. Please open up an issue in GitHub or submit a PR.
 
 Changelog
 =========
+### v1.0.4
+
+* Fixed issue where the DatePicker would shift to the left when scrolled vertically (thanks to [alexrainman](https://github.com/alexrainman))
+
+### v1.0.3
+
+* Update build.gradle
+
 ### v1.0.2
 
 * Changed to Android Studio / Gradle Project
